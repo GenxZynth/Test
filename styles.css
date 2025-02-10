@@ -1,0 +1,7 @@
+.featured-image {
+    width: 100%; /* Makes it responsive */
+    max-width: 600px; /* Limits the size */
+    display: block;
+    margin: 10px auto; /* Centers the image */
+    border-radius: 10px; /* Adds rounded corners */
+}
