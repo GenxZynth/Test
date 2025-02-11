@@ -115,3 +115,18 @@ nav ul {
 nav ul li:first-child a {
     color: gold !important;
 }
+
+aside {
+    width: 30%; /* Increase width (previously 25%) */
+    font-size: 18px; /* Make text larger */
+    padding: 20px; /* Add more spacing inside */
+    background: white; /* Keep background white */
+    border-radius: 5px; /* Keep rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+/* Make the Trending News headlines bigger */
+aside ul li {
+    padding: 10px 0; /* Adds more spacing between items */
+    font-size: 16px; /* Make the text slightly larger */
+}
