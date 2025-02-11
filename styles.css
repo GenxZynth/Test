@@ -194,3 +194,23 @@ aside ul li {
 .news-box a:hover {
     background: #003366;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px; /* Increase space between sections */
+
+main, .trending-news {
+    padding: 20px; /* Add space inside the white boxes */
+    box-sizing: border-box;
+}
+
+main {
+    margin-right: 20px; /* Push article away from trending news */
+}
+
+.trending-news {
+    margin-left: 20px; /* Push trending news away from article */
+}
+
