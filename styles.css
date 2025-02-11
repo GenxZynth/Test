@@ -91,6 +91,23 @@ nav ul {
     cursor: pointer;
     font-weight: bold;
 }
+.menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Align the header-right items */
+.header-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
 
 .sign-in-btn:hover {
     background-color: #ffdb4d;
