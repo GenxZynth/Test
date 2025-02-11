@@ -112,3 +112,6 @@ nav ul {
 .sign-in-btn:hover {
     background-color: #ffdb4d;
 }
+nav ul li:first-child a {
+    color: gold !important;
+}
