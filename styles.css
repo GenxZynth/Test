@@ -261,3 +261,19 @@ main {
 .news-item a:hover {
     color: #d9534f;
 }
+
+.news-item img {
+    width: 100%; /* Ensures all images fill their containers */
+    height: 150px; /* Sets a fixed height */
+    object-fit: cover; /* Ensures images don’t stretch, but crop to fit */
+    border-radius: 5px;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px; /* Ensures all items have the same height */
+}
+
+
