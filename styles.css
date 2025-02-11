@@ -36,25 +36,44 @@ h1, h2, h3, h4, h5, h6 {
     color: #4A90E2;
 }
 
-/* Ensure header uses flexbox */
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 15px;
     background-color: #003366;
     color: white;
 }
 
-/* Move the right section to the far right */
-.header-right {
-    margin-left: auto; /* Pushes the section to the right */
+/* Keep logo at the left */
+.logo {
+    flex: 1;
+}
+
+/* Keep navigation in the center */
+.nav-container {
+    flex: 2;
+    text-align: center;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
     display: flex;
+    justify-content: center; /* Keeps navigation centered */
+    gap: 20px;
+}
+
+/* Move search bar and sign-in button to the right */
+.header-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Moves elements to the right */
     align-items: center;
     gap: 10px;
 }
 
-/* Search Bar Styling */
+/* Search Bar */
 .search-bar {
     padding: 5px 10px;
     border-radius: 5px;
@@ -62,7 +81,7 @@ header {
     outline: none;
 }
 
-/* Sign-In Button Styling */
+/* Sign-In Button */
 .sign-in-btn {
     background-color: #ffcc00;
     color: black;
@@ -72,6 +91,7 @@ header {
     cursor: pointer;
     font-weight: bold;
 }
+
 .sign-in-btn:hover {
     background-color: #ffdb4d;
 }
