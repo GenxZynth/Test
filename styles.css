@@ -293,7 +293,7 @@ main {
 }
 
 .logo img {
-    width: 40px;  /* Adjust size as needed */
+    width: 25px; /* Adjust to make it smaller */
     height: auto;
-    margin-right: 10px; /* Adds space between the logo and text */
+    margin-right: 8px; /* Keeps some space between the logo and text */
 }
