@@ -5,7 +5,6 @@
     margin: 10px auto; /* Centers the image */
     border-radius: 10px; /* Adds rounded corners */
 }
-
 .trending-item {
     display: flex;
     align-items: center;
