@@ -263,12 +263,11 @@ main {
 }
 
 .news-item img {
-    width: 100%;  /* Make the image fill its container */
-    max-width: 200px; /* Optional: Set a max width to limit image size */
-    height: 150px; /* Force a fixed height */
-    object-fit: cover; /* Ensures the image is cropped to fit the box */
-    display: block;
+    width: 100%; /* Ensures all images fill their container */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Crops the image to fit without distortion */
     border-radius: 5px;
+    display: block;
 }
 
 
