@@ -214,3 +214,50 @@ main {
     margin-left: 20px; /* Push trending news away from article */
 }
 
+.more-news {
+    margin-top: 30px; /* Adds space above More News */
+    padding: 20px; /* Keeps content inside box */
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid Layout for News Items */
+.news-grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Individual News Items */
+.news-item {
+    width: 30%; /* Adjusts size for 3 items per row */
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Image Styling */
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* News Title Styling */
+.news-item p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.news-item a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+.news-item a:hover {
+    color: #d9534f;
+}
