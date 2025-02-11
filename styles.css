@@ -263,10 +263,11 @@ main {
 }
 
 .news-item img {
-    width: 100%; /* Ensures all images fill their containers */
-    height: 150px; /* Sets a fixed height */
-    object-fit: cover; /* Ensures images don’t stretch, but crop to fit */
+    width: 100%; /* Ensures all images fill their container */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Crops the image to fit without distortion */
     border-radius: 5px;
+    display: block;
 }
 
 .news-item {
@@ -276,4 +277,15 @@ main {
     height: 250px; /* Ensures all items have the same height */
 }
 
-
+.news-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px; /* Set a fixed height for all news boxes */
+    text-align: center;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
